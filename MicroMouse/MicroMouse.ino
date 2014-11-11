@@ -14,10 +14,10 @@ int const LIn2=4;
 int const REncoderPin=5;
 int const LEncoderPin=6;
 
-//int const ir_left = A0;
+int const ir_left = A0;
 int const ir_right = A1;
 
-int countL=0;
+int countL=0; 
 int countR=0;
 
 int previousL=0;
